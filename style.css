@@ -155,6 +155,27 @@ label:hover, input:checked ~ label
 		padding: 10% 0 ;
 		overflow: hidden;
 	}
+	
+	.row
+	{
+		display: inline-block;
+		position: relative;
+		padding: 0 25px;
+	}
+	.three-cols
+	{
+		float: middle;
+		width: 100%;
+		max-width: 100%;
+		padding: 0;
+	}
+	.two-cols
+	{
+		float: middle;
+		width: 100%;
+		max-width: 100%;
+		padding: 0;
+	}
 }
 .content
 {
@@ -298,27 +319,6 @@ H5
 
 @media screen and (max-width:800px)
 {
-	.row
-	{
-		display: inline-block;
-		position: relative;
-		padding: 0 25px;
-	}
-	.three-cols
-	{
-		float: middle;
-		width: 100%;
-		max-width: 100%;
-		padding: 0;
-	}
-	.two-cols
-	{
-		float: middle;
-		width: 100%;
-		max-width: 100%;
-		padding: 0;
-	}
-
 }
 
 .paragraph
