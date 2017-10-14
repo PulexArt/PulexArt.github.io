@@ -10,7 +10,6 @@ body
 
 img
 { max-width: 100%; }
-
 A:link, A:visited
 {
 	opacity: 1;
@@ -40,6 +39,7 @@ A:hover
 	margin-bottom: 14px;
 	padding: 0;
 	text-align: left;
+	opacity: 0;
 }
 
 label
@@ -53,7 +53,6 @@ input
 ul.header-link
 {
 	text-transform: uppercase;
-	font-family: 'Montserrat', sans-serif;
 	height: 66px;
 	padding: 0;
 	overflow: hidden;
@@ -158,18 +157,15 @@ H3
 	font-weight: bold;
 	font-size: 18px;
 	color: #f60;
-	font-family: 'Montserrat', sans-serif;
 }
 H4
 {
 	font-weight: bold;
 	font-size: 16px;
-	font-family: 'Montserrat', sans-serif;
 }
 H5
 {
 	font-size: 16px;
-	font-family: 'Montserrat', sans-serif;
 }
 
 .last-updated
@@ -456,6 +452,15 @@ H5
 		font-size: 24px;
 	}
 
+}
+
+.header
+{
+	opacity: 1 !important;
+	-webkit-transition: 1s;
+	-moz-transition: 1s;
+	-o-transition: 1s;
+	transition: 1s;
 }
 
 .heart
