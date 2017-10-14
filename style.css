@@ -4,7 +4,7 @@ body
 	margin: 0;
 	font-family: 'Montserrat', sans-serif;
 	font-size: 13px;
-	line-height: 25px;
+	line-height: 2em;
 	color: #3f3f3f;
 }
 
@@ -228,6 +228,7 @@ H5
 .stickers img
 {
 	max-width: 400px;
+	width: 100%;
 }
 
 @media screen and (max-width:800px)
@@ -296,13 +297,14 @@ H5
 	border-top: 1px solid white;
 	height: 120px;
 	background: #000;
+	padding-top: 1em;
 }
 .footer-link
 {
 	text-decoration: underline;
 }
 
-@media screen and (max-width:992px)
+@media screen and (max-width:800px)
 {
 	.header-whitespace
 	{
@@ -392,13 +394,62 @@ H5
 		/*float: none;*/
 		width: 100%;
 		max-width: 100% !important;
-		padding: auto 0;
+		padding: 0;
 		text-align: center;
 	}
 	.align-left
 	{
 		text-align: center;
 	}
+
+	
+	body
+	{
+		font-size: 26px;
+	}
+
+	H1
+	{
+		font-size: 64px;
+	}
+	H2
+	{
+		font-size: 48px;
+	}
+	H3
+	{
+		font-size: 36px;
+	}
+	H4
+	{
+		font-size: 32px;
+	}
+	H5
+	{
+		font-size: 32px;
+	}
+	.paragraph
+	{
+		font-size: 32px;
+	}
+
+	.content-link
+	{
+		font-size: 24px;
+	}
+	.front-page
+	{
+		font-size: 24px;
+	}
+	.last-updated
+	{
+		font-size: 24px;
+	}
+	.footer
+	{
+		font-size: 24px;
+	}
+
 }
 
 .heart
