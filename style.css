@@ -297,10 +297,10 @@ H5
 }
 .footer-link
 {
-	text-decoration: underline;
+	text-decoration: none;
 }
 
-@media /*screen*/ (max-width: 800px)
+@media /*only screen*/ (max-width: 800px)
 {
 	.header-whitespace
 	{
