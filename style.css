@@ -227,10 +227,6 @@ H5
 	width: 100%;
 }
 
-@media screen and (max-width:800px)
-{
-}
-
 .paragraph
 {
 	font-size: 16px;
@@ -300,7 +296,7 @@ H5
 	text-decoration: none;
 }
 
-@media /*only screen*/ (max-width: 800px)
+@media /*only screen*/ (max-width: 1000px)
 {
 	.header-whitespace
 	{
