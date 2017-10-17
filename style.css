@@ -289,6 +289,14 @@ H5
 	background: #000;
 }
 
+.footer-content a
+{
+	-webkit-transition: 0.2s;
+	-moz-transition: 0.2s;
+	-o-transition: 0.2s;
+	transition: 0.2s;
+}
+
 .footer-border
 {
 	transform: scaleX(1) !important;
@@ -297,16 +305,6 @@ H5
 	height: 0;
 }
 
-.footer-content
-{
-	opacity: 1 !important;
-	-webkit-transition: 2s;
-	-moz-transition: 2s;
-	-o-transition: 2s;
-	transition: 2s;
-	margin: 0;
-	padding: 0;
-}
 
 @media /*only screen*/ (max-width: 1000px)
 {
