@@ -300,6 +300,9 @@ H5
 .footer-border
 {
 	transform: scaleX(1) !important;
+	-webkit-transition: transform 0.7s ease-in-out;
+	-moz-transition: transform 0.7s ease-in-out;
+	-o-transition: transform 0.7s ease-in-out;
 	transition: transform 0.7s ease-in-out;
 	border-top: 1px solid white;
 	height: 0;
