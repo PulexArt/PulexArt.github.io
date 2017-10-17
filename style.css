@@ -279,17 +279,20 @@ H5
 
 .footer
 {
-	opacity: 0.3;
-	color: white;
-	font-size: 12px;
-	font-family: Helvetica, Arial, sans-serif;
 	text-transform: none;
 	text-align:center;
 	height: 120px;
 	background: #000;
 }
 
-.footer-content a
+.footer-content
+{
+	opacity: 0.3;
+	color: white;
+	font-size: 12px;
+	font-family: Helvetica, Arial, sans-serif;
+}
+.footer a
 {
 	-webkit-transition: 0.2s;
 	-moz-transition: 0.2s;
@@ -299,6 +302,7 @@ H5
 
 .footer-border
 {
+	opacity: 0.3;
 	transform: scaleX(1) !important;
 	-webkit-transition: transform 0.7s ease-in-out;
 	-moz-transition: transform 0.7s ease-in-out;
