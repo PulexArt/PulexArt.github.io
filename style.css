@@ -282,6 +282,7 @@ H5
 	text-align:center;
 	height: 120px;
 	background: #000;
+	padding-top: 48px;
 }
 
 .footer-content
@@ -291,6 +292,7 @@ H5
 	font-size: 12px;
 	font-family: Helvetica, Arial, sans-serif;
 	line-height: 24px;
+	margin: 36px 0;
 }
 .footer a
 {
