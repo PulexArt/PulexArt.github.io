@@ -3,7 +3,7 @@ body
 	background: #000;
 	margin: 0;
 	font-family: 'Montserrat', sans-serif;
-	font-size: 12px;
+	font-size: 14px;
 	line-height: 2em;
 	color: #3f3f3f;
 }
@@ -79,6 +79,7 @@ ul.header-link
 	background: #000;
 	top: 40px;
 	overflow: hidden;
+	transform: translateY(-0.5em);
 }
 
 ul.header-link li a
@@ -176,9 +177,7 @@ H4
 	font-size: 16px;
 }
 H5
-{
-	font-size: 16px;
-}
+{ font-size: 16px; }
 
 .last-updated
 {
@@ -196,16 +195,16 @@ H5
 .three-cols
 {
 	float: left;
-	width: 220px;
+	width: 270px;
 	padding: 0 15px;
-	max-width: 100%;
+	max-width: 30%;
 }
 
 .two-cols
 {
 	float: left;
-	max-width: 45%;
-	padding: 0 15px;
+	max-width: 49%;
+	padding: 0 ;
 }
 
 .one-col
@@ -379,6 +378,7 @@ H5
 		background: #000;
 		top: 0;
 		overflow: hidden;
+		transform: translateY(0);
 	}
 
 	ul.header-link li a
@@ -459,7 +459,7 @@ H5
 	-o-transition: 0.5s;
 	transition: 0.5s;
 	opacity: 0 !important;
-	max-width: 50px;
+	max-width: 4em;
 	padding-bottom: 10px;
 }
 .heart:hover
