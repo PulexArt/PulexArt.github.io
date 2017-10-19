@@ -206,6 +206,14 @@ H5
 	max-width: 49%;
 	padding: 0 ;
 }
+.left
+{
+	margin: 0;
+}
+.right
+{
+	margin: 0 0 0 2%;
+}
 
 .one-col
 {
@@ -420,6 +428,11 @@ H5
 		padding: 0;
 		text-align: center;
 	}
+	.right
+	{
+		margin: 0;
+	}
+
 	.align-left
 	{ text-align: center; }
 
