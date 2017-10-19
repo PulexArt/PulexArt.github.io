@@ -203,16 +203,26 @@ H5
 .two-cols
 {
 	float: left;
-	max-width: 49%;
-	padding: 0 ;
+	width: 49%;
+	padding: 0;
 }
 .left
 {
-	margin: 0;
+	margin: 0 1% 0 0;
+	text-align: right;
+}
+.left h2
+{
+	margin-right: 5vh;
 }
 .right
 {
-	margin: 0 0 0 2%;
+	margin: 0 0 0 1%;
+	text-align: left;
+}
+.right h2
+{
+	margin-left: 5vh;
 }
 
 .one-col
@@ -428,9 +438,23 @@ H5
 		padding: 0;
 		text-align: center;
 	}
+	.left
+	{
+		margin: 0;
+		text-align: center;
+	}
+	.left h2
+	{
+		margin: 1em;
+	}
 	.right
 	{
 		margin: 0;
+		text-align: center;
+	}
+	.right h2
+	{
+		margin: 1em;
 	}
 
 	.align-left
