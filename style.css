@@ -94,7 +94,6 @@ ul.header-link
 	text-transform: uppercase;
 	padding: 0;
 	margin: 0;
-	overflow: hidden;
 	list-style-type: none;
 	transition: 0.2s ease-out;
 	position: absolute;
@@ -405,15 +404,16 @@ H5
 
 	label
 	{
-		position: relative;
+		position: absolute;
 		display: block;
 		padding: 0;
 		line-height: 3em;
 		transition: background 0.2s;
 		cursor: pointer;
 		width: 25mm;
-		height: 100%;
 		margin: 0;
+		top: 0;
+		left: 0;
 	}
 
 	input
@@ -424,8 +424,7 @@ H5
 		max-height: 100vh;
 		transition: 0.2s ease-in;
 		position: absolute;
-		padding: 0 0 100% 0;
-		overflow: hidden;
+		padding: 0 0 0 0;
 	}
 	
 	li.header
@@ -445,18 +444,26 @@ H5
 		text-align: center;
 		background: #000;
 		top: 0;
-		overflow: hidden;
-		transform: translateY(0);
+		z-index: 2;
 	}
 
 	ul.header-link li a
 	{
+		position: relative;
 		display: block;
 		font-size: 50px;
-		padding: 10% 0 ;
-		overflow: hidden;
+		height: 1vh;
+		padding: 12vh 0;
+		vertical-align: middle;
+		transform: translateY(-0.5em);
+		margin:0;
 	}
-	
+	.currentpage
+	{
+		border-bottom: none;
+		animation: none;
+	}
+
 	.row
 	{
 		display: inline-block;
