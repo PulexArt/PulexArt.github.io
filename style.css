@@ -9,7 +9,10 @@ body
 }
 
 img
-{ max-width: 100%; }
+{
+	max-width: 100%;
+	max-height: 90vh;
+}
 video
 { max-width: 100%; }
 
@@ -51,10 +54,12 @@ A:hover
 
 .header
 {
-	background: none;
-	height: 0;
-	margin-bottom: 14px;
+	background: #000;
+	height: 10%;
+	margin: 0;
 	padding: 0;
+	vertical-align: middle;
+	z-index: 1;
 }
 .header a
 {
@@ -87,9 +92,8 @@ input
 ul.header-link
 {
 	text-transform: uppercase;
-	height: 66px;
 	padding: 0;
-	overflow: hidden;
+	margin: 0;
 	list-style-type: none;
 	transition: 0.2s ease-out;
 	position: absolute;
@@ -98,26 +102,23 @@ ul.header-link
 	font-weight: bold;
 	text-align: center;
 	background: #000;
-	top: 40px;
-	overflow: hidden;
-	transform: translateY(-0.5em);
+	top: 3.5%;
+	vertical-align: middle;
 }
 
 ul.header-link li a
 {
 	text-decoration: none;
-	padding: 10px 20px;
-	overflow: hidden;
+	margin: 10px 20px;
 }
 
 ul.header-link li
 {
 	animation: 0.7s ease-in-out 0s 1 shrink;
 	display: inline;
-	overflow: hidden;
 }
 
-.currentpageborder
+.currentpage
 {
 	border-bottom: 1px solid white;
 	animation: 0.7s ease-in-out 0s 1 expand;
@@ -393,27 +394,26 @@ H5
 	
 	.header
 	{
-		position: absolute;
 		top: 0;
 		left: 0;
 		width: 100%;
 		height: 25mm;
-		background: none;
 		padding-right: 0;
 		margin-bottom: 0;
 	}
 
 	label
 	{
-		position: relative;
+		position: absolute;
 		display: block;
 		padding: 0;
 		line-height: 3em;
 		transition: background 0.2s;
 		cursor: pointer;
 		width: 25mm;
-		height: 100%;
 		margin: 0;
+		top: 0;
+		left: 0;
 	}
 
 	input
@@ -424,8 +424,7 @@ H5
 		max-height: 100vh;
 		transition: 0.2s ease-in;
 		position: absolute;
-		padding: 0 0 100% 0;
-		overflow: hidden;
+		padding: 0 0 0 0;
 	}
 	
 	li.header
@@ -445,18 +444,26 @@ H5
 		text-align: center;
 		background: #000;
 		top: 0;
-		overflow: hidden;
-		transform: translateY(0);
+		z-index: 2;
 	}
 
 	ul.header-link li a
 	{
+		position: relative;
 		display: block;
 		font-size: 50px;
-		padding: 10% 0 ;
-		overflow: hidden;
+		height: 1vh;
+		padding: 12vh 0;
+		vertical-align: middle;
+		transform: translateY(-0.5em);
+		margin:0;
 	}
-	
+	.currentpage
+	{
+		border-bottom: none;
+		animation: none;
+	}
+
 	.row
 	{
 		display: inline-block;
@@ -539,10 +546,6 @@ H5
 	.footer
 	{ font-size: 24px; }
 
-}
-
-.header
-{
 }
 
 .heart
