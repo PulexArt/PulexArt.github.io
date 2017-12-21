@@ -548,7 +548,12 @@ H5
 
 }
 
-.heart
+a.heart, a.heart:hover
+{
+	opacity: 1;
+}
+
+.heart img
 {
 	-webkit-transition: 0.5s;
 	-moz-transition: 0.5s;
@@ -558,7 +563,7 @@ H5
 	max-width: 4em;
 	padding-bottom: 10px;
 }
-.heart:hover
+.heart:hover img
 {
 	-webkit-transition: 0.5s;
 	-moz-transition: 0.5s;
