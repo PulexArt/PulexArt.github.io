@@ -44,6 +44,9 @@ A:link, A:visited
 A:hover
 { opacity: 0.4; }
 
+P
+{ font-weight: bold; }
+
 .header-whitespace
 {
 	position: relative;
@@ -191,29 +194,34 @@ label:hover, input:checked ~ label
 	transform: translateX(-50%);
 }
 
+H1, H2, H3, H4, H5, H6
+{ margin: 1em 0; }
 H1
 {
-	font-weight: normal;
-	font-size: 32px;
+	font-weight: bold;
+	font-size: 40px;
+	color: #f60;
 }
 H2
 {
-	font-weight: normal;
-	font-size: 24px;
+	font-weight: bold;
+	font-size: 40px;
 }
 H3
 {
-	font-weight: bold;
-	font-size: 18px;
+	font-weight: normal;
+	font-size: 32px;
 	color: #f60;
 }
 H4
 {
-	font-weight: bold;
-	font-size: 16px;
+	font-weight: normal;
+	font-size: 32px;
 }
 H5
-{ font-size: 16px; }
+{ font-size: 24px; }
+H6
+{ font-size: 20px; }
 
 .last-updated
 {
@@ -283,20 +291,24 @@ H5
 .col-content
 { margin: 0px; }
 
-.indent
-{ margin: 0 0 0 20px; }
+.indent, .indent-left
+{ margin-left: 20px; }
+.indent-right
+{ margin-right: 20px; }
 
 .stickers
 {
 	max-width: 100%;
 	padding: 0;
-	
 }
 .stickers img
 {
 	max-width: 400px;
 	width: 100%;
 }
+
+.not-offered
+{ opacity: 0.5; }
 
 .paragraph
 { font-size: 16px; }
