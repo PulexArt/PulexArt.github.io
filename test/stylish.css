@@ -528,36 +528,8 @@ H6
 	{
 		margin: 1em;
 	}
-
 	.align-left
 	{ text-align: center; }
-
-	
-	body
-	{ font-size: 26px; }
-
-	H1
-	{ font-size: 64px; }
-	H2
-	{ font-size: 48px; }
-	H3
-	{ font-size: 36px; }
-	H4
-	{ font-size: 32px; }
-	H5
-	{ font-size: 32px; }
-	.paragraph
-	{ font-size: 32px; }
-
-	.content-link
-	{ font-size: 24px; }
-	.front-page
-	{ font-size: 28px; }
-	.last-updated
-	{ font-size: 24px; }
-	.footer
-	{ font-size: 24px; }
-
 }
 
 a.heart, a.heart:hover
