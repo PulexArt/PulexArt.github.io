@@ -215,7 +215,7 @@ label:hover, input:checked ~ label
 }
 
 H1, H2, H3, H4, H5, H6
-{ margin: 1em 0; }
+{ margin: 1.5em 0 0.5em; }
 H1
 {
 	font-weight: bold;
@@ -342,6 +342,7 @@ H6
 
 .button-black
 {
+	display: inline-block;
 	text-transform: uppercase;
 	font-family: 'Montserrat', sans-serif;
 	font-weight: bold;
@@ -351,7 +352,7 @@ H6
 	opacity: 1;
 	color: #fff !important;
 	padding: 10px 20px;
-	margin: 10px;
+	margin: 0.5em 0.5em;
 }
 .button-black:hover
 { opacity: 0.5; }
