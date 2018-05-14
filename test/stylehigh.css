@@ -260,7 +260,7 @@ H6
 .three-cols
 {
 	float: left;
-	width: 32%;
+	width: 33%;
 	padding: 0;
 }
 
@@ -336,6 +336,7 @@ H6
 	text-transform: uppercase;
 	font-family: 'Montserrat', sans-serif;
 	font-weight: bold;
+	font-size: 14px;
 	text-decoration: none;
 	background: #000;
 	border-radius: 5px;
@@ -354,6 +355,7 @@ H6
 	text-transform: uppercase;
 	font-family: 'Montserrat', sans-serif;
 	font-weight: bold;
+	font-size: 14px;
 	text-decoration: none;
 	background: #fff;
 	border-radius: 5px;
