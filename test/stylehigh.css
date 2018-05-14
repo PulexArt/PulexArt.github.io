@@ -353,12 +353,14 @@ H6
 	color: #fff !important;
 	padding: 10px 20px;
 	margin: 0.5em 0.5em;
+	line-height: 1em;
 }
 .button-black:hover
 { opacity: 0.5; }
 
 .button-white
 {
+	display: inline-block;
 	text-transform: uppercase;
 	font-family: 'Montserrat', sans-serif;
 	font-weight: bold;
@@ -368,7 +370,8 @@ H6
 	opacity: 1;
 	color: #000 !important;
 	padding: 10px 20px;
-	margin: 10px;
+	margin: 0.5em 0.5em;
+	line-height: 1em;
 }
 .button-white:hover
 { opacity: 0.5; }
