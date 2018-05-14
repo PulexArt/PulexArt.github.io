@@ -3,7 +3,7 @@ body
 	background: #000;
 	margin: 0;
 	font-family: 'Montserrat', sans-serif;
-	font-size: 14px;
+	font-size: 16px;
 	line-height: 2em;
 	color: #3f3f3f;
 }
@@ -328,16 +328,6 @@ H6
 }
 
 .not-offered
-{ opacity: 0.5; }
-
-.paragraph
-{ font-size: 16px; }
-.paragraph a
-{
-	font-weight: bold;
-	text-decoration: none;
-}
-.paragraph a:hover
 { opacity: 0.5; }
 
 .button-black
