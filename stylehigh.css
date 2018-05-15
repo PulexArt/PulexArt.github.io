@@ -3,7 +3,7 @@ body
 	background: #000;
 	margin: 0;
 	font-family: 'Montserrat', sans-serif;
-	font-size: 14px;
+	font-size: 16px;
 	line-height: 2em;
 	color: #3f3f3f;
 }
@@ -215,7 +215,7 @@ label:hover, input:checked ~ label
 }
 
 H1, H2, H3, H4, H5, H6
-{ margin: 1em 0; }
+{ margin: 1.5em 0 0.5em; }
 H1
 {
 	font-weight: bold;
@@ -260,14 +260,14 @@ H6
 .three-cols
 {
 	float: left;
-	width: 32%;
+	width: 33%;
 	padding: 0;
 }
 
 .two-cols
 {
 	float: left;
-	width: 49%;
+	width: 50%;
 	padding: 0;
 }
 
@@ -330,44 +330,40 @@ H6
 .not-offered
 { opacity: 0.5; }
 
-.paragraph
-{ font-size: 16px; }
-.paragraph a
-{
-	font-weight: bold;
-	text-decoration: none;
-}
-.paragraph a:hover
-{ opacity: 0.5; }
-
 .button-black
 {
+	display: inline-block;
 	text-transform: uppercase;
 	font-family: 'Montserrat', sans-serif;
 	font-weight: bold;
+	font-size: 14px;
 	text-decoration: none;
 	background: #000;
 	border-radius: 5px;
 	opacity: 1;
 	color: #fff !important;
 	padding: 10px 20px;
-	margin: 10px;
+	margin: 0.5em 0.5em;
+	line-height: 1em;
 }
 .button-black:hover
 { opacity: 0.5; }
 
 .button-white
 {
+	display: inline-block;
 	text-transform: uppercase;
 	font-family: 'Montserrat', sans-serif;
 	font-weight: bold;
+	font-size: 14px;
 	text-decoration: none;
 	background: #fff;
 	border-radius: 5px;
 	opacity: 1;
 	color: #000 !important;
 	padding: 10px 20px;
-	margin: 10px;
+	margin: 0.5em 0.5em;
+	line-height: 1em;
 }
 .button-white:hover
 { opacity: 0.5; }
